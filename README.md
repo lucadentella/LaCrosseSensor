@@ -24,4 +24,4 @@ If you're interested in LaCrosse sensors/stations, I've also designed a bridge b
 - BME280 sensor is connected to i2c bus: SDA to Xiao's PIN4 and SCL to PIN5
 - SX1276 module is connected to SPI bus: MOSI to Xiao's PIN10, MISO to PIN9, SCK to pin 8, NSS (*ChipSelect*) to PIN7 and RESET to PIN8
 
-![](https://github.com/lucadentella/LaCrosseSensor/raw/main/images/connections.jpg)
+![](https://github.com/lucadentella/LaCrosseSensor/raw/main/images/connections.png)
