@@ -3,7 +3,7 @@
 
 ## Description
 Homemade temperature and humidity sensor for LaCrosse weather stations.
-A complete description of this project is available in a [blog post]() on my website.
+A complete description of this project is available in a [blog post](https://www.lucadentella.it/en/2024/11/24/lacrosse-sensor/) on my website.
 
 In the **Arduino** subfolder, you can find the sketch for the XIAO SAMD21 board.
 
