@@ -23,7 +23,8 @@ void sendPacket() {
   bool result = bme.takeForcedMeasurement();
   if(result) {
     temperature = bme.readTemperature();
-    humidity = (int)bme.readHumidity(); // Lacrosse only support integer values for Humidity
+    humidity = (int)bme.readHumidity(); // Lacrosse only supports integer values for Humidity
+    if(humidity < 99) humidity = 99;    // Lacrosse only supports 2 digits
   } else {
     DPRINTLN("Forced measurement failed, using previous values");
   }
